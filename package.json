@@ -1,0 +1,26 @@
+{
+  "name": "ebaclient",
+  "version": "1.0.0",
+  "description": "eba client tester",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "eba-client": "git+https://github.com/ibm-watson-embedded-business-assistant/eba-node-client.git",
+    "figlet": "^1.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mapscii": "^0.3.0",
+    "marked": "^0.7.0",
+    "remove-markdown": "^0.3.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "websocket": "^1.0.30"
+  }
+}
